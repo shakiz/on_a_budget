@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="navigationVM" type="com.finance.onabudget.app.modules.navigation.data.viewmodel.NavigationVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linear32Navigation"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleblack_900_47">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnmenu"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_118pxh"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStyleteal_400">
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnMenu"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5pxh"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_29pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_29pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_menu"
+                android:textAllCaps="false"
+                style="@style/btnSolidOutline" tools:text="@string/lbl_menu"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnChangeCurrencyOne"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_37pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_12pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_12pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_change_currency"
+                android:textAllCaps="false"
+                style="@style/btnSolidOutline_1" tools:text="@string/lbl_change_currency"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnRecords"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_12pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_12pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_records"
+                android:textAllCaps="false"
+                style="@style/btnSolidOutline_1" tools:text="@string/lbl_records"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

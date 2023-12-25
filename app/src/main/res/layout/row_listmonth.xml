@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listmonthRowModel" type="com.finance.onabudget.app.modules.recordssavingsrecords.data.model.ListmonthRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowmonth"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStyleblack_900_07">
+        <TextView android:ellipsize="end" android:id="@+id/txtMonth"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5pxv"
+            android:layout_marginStart="@dimen/_11pxh"
+            android:layout_marginTop="@dimen/_4pxv"
+            android:layout_weight="0.21" android:layout_width="0dp"
+            android:lineSpacingExtra="@dimen/_3pxh"
+            android:singleLine="true"
+            android:text="@{listmonthRowModel.txtMonth}"
+            style="@style/txtRobotoromanmedium12" tools:text="@string/lbl_month"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtIncome"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5pxv"
+            android:layout_marginStart="@dimen/_49pxh"
+            android:layout_marginTop="@dimen/_4pxv"
+            android:layout_weight="0.25" android:layout_width="0dp"
+            android:lineSpacingExtra="@dimen/_3pxh"
+            android:singleLine="true"
+            android:text="@{listmonthRowModel.txtIncome}"
+            style="@style/txtRobotoromanmedium12" tools:text="@string/lbl_income"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtExpense"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_4pxv"
+            android:layout_marginStart="@dimen/_29pxh"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:layout_weight="0.28" android:layout_width="0dp"
+            android:lineSpacingExtra="@dimen/_3pxh"
+            android:singleLine="true"
+            android:text="@{listmonthRowModel.txtExpense}"
+            style="@style/txtRobotoromanmedium12" tools:text="@string/lbl_expense"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtSavings"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_4pxv"
+            android:layout_marginEnd="@dimen/_11pxh"
+            android:layout_marginStart="@dimen/_53pxh"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:layout_weight="0.26" android:layout_width="0dp"
+            android:lineSpacingExtra="@dimen/_3pxh"
+            android:singleLine="true"
+            android:text="@{listmonthRowModel.txtSavings}"
+            style="@style/txtRobotoromanmedium12" tools:text="@string/lbl_savings"/>
+    </LinearLayout>
+</layout>

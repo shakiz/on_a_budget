@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="changeCurrencyVM" type="com.finance.onabudget.app.modules.changecurrency.data.viewmodel.ChangeCurrencyVM"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linear33Changecurre"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnmegaphone"
+            android:layout_height="0dp" android:layout_weight="1.0"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" app:contentInsetStart="0dp">
+                <LinearLayout android:id="@+id/linearRowmegaphone"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal" style="@style/groupStyleteal_400">
+                    <ImageView android:id="@+id/imageMegaphone"
+                        android:layout_height="@dimen/_12pxh"
+                        android:layout_marginBottom="@dimen/_30pxv"
+                        android:layout_marginStart="@dimen/_21pxh"
+                        android:layout_marginTop="@dimen/_24pxv"
+                        android:layout_width="@dimen/_18pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_megaphone"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_megaphone"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtChangecurrency"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_23pxv"
+                        android:layout_marginStart="@dimen/_65pxh"
+                        android:layout_marginTop="@dimen/_18pxv"
+                        android:layout_weight="0.82"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{changeCurrencyVM.changeCurrencyModel.txtChangecurrency}"
+                        style="@style/txtRobotoromansemibold20" tools:text="@string/lbl_change_currency"/>
+                    <ImageView android:id="@+id/imageVector"
+                        android:layout_height="@dimen/_19pxh"
+                        android:layout_marginBottom="@dimen/_25pxv"
+                        android:layout_marginEnd="@dimen/_21pxh"
+                        android:layout_marginStart="@dimen/_67pxh"
+                        android:layout_marginTop="@dimen/_21pxv"
+                        android:layout_width="@dimen/_16pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_vector"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_vector"/>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearColumnyourcurrencyi"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStyleteal_401">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtYourcurrencyi"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_21pxh"
+                    android:layout_marginStart="@dimen/_21pxh"
+                    android:layout_marginTop="@dimen/_36pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{changeCurrencyVM.changeCurrencyModel.txtYourcurrencyi}"
+                    style="@style/txtRobotoromansemibold14" tools:text="@string/msg_your_currency_i"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtChangecurrencyOne"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_21pxh"
+                    android:layout_marginStart="@dimen/_21pxh"
+                    android:layout_marginTop="@dimen/_38pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{changeCurrencyVM.changeCurrencyModel.txtChangecurrencyOne}"
+                    style="@style/txtRobotoromansemibold14" tools:text="@string/lbl_change_currency"/>
+                <EditText
+                    android:background="@drawable/rectangle_border_white_a700_radius_10"
+                    android:ellipsize="end"
+                    android:hint="@string/lbl_bdt"
+                    android:id="@+id/etInputarea"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_119pxv"
+                    android:layout_marginEnd="@dimen/_20pxh"
+                    android:layout_marginStart="@dimen/_20pxh"
+                    android:layout_marginTop="@dimen/_6pxv"
+                    android:layout_width="match_parent"
+                    android:lineSpacingExtra="@dimen/_3pxh"
+                    android:paddingBottom="@dimen/_10pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_14pxh"
+                    android:paddingTop="@dimen/_12pxv"
+                    android:singleLine="true"
+                    android:text="@={changeCurrencyVM.changeCurrencyModel.etInputareaValue}"
+                    android:textColorHint="@color/white_A700"
+                    style="@style/etRoundedOutline" tools:ignore="Autofill"/>
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnSave"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_21pxh"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_marginTop="@dimen/_21pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_11pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_11pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_save"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded" tools:text="@string/lbl_save"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/frameBottombar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" style="@style/groupStyleteal_400cornerRadius">
+            <LinearLayout android:id="@+id/linearColumngrouptwentyfive"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_18pxv"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <LinearLayout android:id="@+id/linearRowgrid"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <LinearLayout android:id="@+id/linearColumngrid"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6pxv"
+                        android:layout_weight="1"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <ImageView android:id="@+id/imageGrid"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_14pxh"
+                            android:layout_width="@dimen/_14pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_grid"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_grid"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/txtExpense"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_2pxh"
+                            android:layout_marginStart="@dimen/_2pxh"
+                            android:layout_marginTop="@dimen/_7pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_3pxh"
+                            android:singleLine="true"
+                            android:text="@{changeCurrencyVM.changeCurrencyModel.txtExpense}"
+                            style="@style/txtRobotoromanregular12" tools:text="@string/lbl_expense"/>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearColumngroup"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_3pxv"
+                        android:layout_weight="1"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <ImageView android:id="@+id/imageGroup"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_18pxh"
+                            android:layout_width="@dimen/_18pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_group"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_group"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/txtAnalytics"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_2pxh"
+                            android:layout_marginStart="@dimen/_2pxh"
+                            android:layout_marginTop="@dimen/_6pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_3pxh"
+                            android:singleLine="true"
+                            android:text="@{changeCurrencyVM.changeCurrencyModel.txtAnalytics}"
+                            style="@style/txtRobotoromanregular12" tools:text="@string/lbl_analytics"/>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearColumnlaptop"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2pxv"
+                        android:layout_weight="1"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <ImageView android:id="@+id/imageLaptop"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_20pxh"
+                            android:layout_width="@dimen/_14pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_laptop"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_laptop"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/txtPlanner"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_2pxh"
+                            android:layout_marginStart="@dimen/_2pxh"
+                            android:layout_marginTop="@dimen/_4pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_3pxh"
+                            android:singleLine="true"
+                            android:text="@{changeCurrencyVM.changeCurrencyModel.txtPlanner}"
+                            style="@style/txtRobotoromanregular12" tools:text="@string/lbl_planner"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout android:id="@+id/frameSafebottom"
+                    android:layout_height="@dimen/_40pxv"
+                    android:layout_marginTop="@dimen/_16pxv"
+                    android:layout_width="match_parent" style="@style/groupStyleblack_900">
+                    <ImageView android:id="@+id/imageGroupTwentyFive"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_14pxh"
+                        android:layout_marginBottom="@dimen/_13pxv"
+                        android:layout_marginTop="@dimen/_13pxv"
+                        android:layout_width="@dimen/_142pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_group25"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_group25"/>
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

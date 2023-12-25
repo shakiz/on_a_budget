@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listgroup109RowModel" type="com.finance.onabudget.app.modules.analyticssavingsplan.data.model.Listgroup109RowModel"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackgroup109"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" style="@style/groupStylewhite_2">
+        <ProgressBar android:id="@+id/progressBarGroup109"
+            android:indeterminate="false" android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_17pxv"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_marginStart="@dimen/_10pxh"
+            android:layout_marginTop="@dimen/_17pxv"
+            android:layout_width="match_parent" android:max="100"
+            android:minHeight="@dimen/_8pxv" android:progress="40"
+            android:progressDrawable="@drawable/layer_list_bg_yellow_700_26_radius_4" style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+        <LinearLayout android:id="@+id/linearRow"
+            android:layout_gravity="top|center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_marginStart="@dimen/_10pxh"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <LinearLayout android:id="@+id/linearRowtelevision"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" android:layout_width="0dp" android:orientation="horizontal">
+                <ImageButton
+                    android:background="@drawable/rectangle_bg_yellow_700_26_radius_15"
+                    android:id="@+id/btnTelevisionOne"
+                    android:layout_height="@dimen/_30pxh"
+                    android:layout_width="@dimen/_30pxh"
+                    android:paddingHorizontal="@dimen/_4pxh"
+                    android:paddingVertical="@dimen/_4pxv"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_television" tools:ignore="ContentDescription"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtLanguage"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_5pxv"
+                    android:layout_marginStart="@dimen/_7pxh"
+                    android:layout_marginTop="@dimen/_9pxv"
+                    android:layout_weight="0.61"
+                    android:layout_width="0dp"
+                    android:lineSpacingExtra="@dimen/_3pxh"
+                    android:singleLine="true"
+                    android:text="@{listgroup109RowModel.txtLanguage}"
+                    style="@style/txtRobotoromanmedium12" tools:text="@string/lbl_expense2"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRow60of10000"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_17pxv"
+                android:layout_marginStart="@dimen/_84pxh"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_weight="0.6" android:layout_width="0dp" android:orientation="horizontal">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txt60of10000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_weight="0.8"
+                    android:layout_width="0dp"
+                    android:lineSpacingExtra="@dimen/_2pxh"
+                    android:singleLine="true"
+                    android:text="@{listgroup109RowModel.txt60of10000}"
+                    style="@style/txtRobotoromanlight8" tools:text="@string/msg_60_of_1_00_00"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txt60000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_weight="0.2"
+                    android:layout_width="0dp"
+                    android:lineSpacingExtra="@dimen/_2pxh"
+                    android:singleLine="true"
+                    android:text="@{listgroup109RowModel.txt60000}"
+                    style="@style/txtRobotoromanmedium8" tools:text="@string/lbl_60_000"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtSpendCounter"
+            android:layout_gravity="bottom|start"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5pxv"
+            android:layout_marginEnd="@dimen/_98pxh"
+            android:layout_marginStart="@dimen/_98pxh"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_width="wrap_content"
+            android:lineSpacingExtra="@dimen/_2pxh"
+            android:singleLine="true"
+            android:text="@{listgroup109RowModel.txtSpendCounter}"
+            style="@style/txtRobotoromanregular8" tools:text="@string/lbl_spend_10_000"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtRemain30000"
+            android:layout_gravity="bottom|end"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5pxv"
+            android:layout_marginEnd="@dimen/_11pxh"
+            android:layout_marginStart="@dimen/_11pxh"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_width="wrap_content"
+            android:lineSpacingExtra="@dimen/_2pxh"
+            android:singleLine="true"
+            android:text="@{listgroup109RowModel.txtRemain30000}"
+            style="@style/txtRobotoromanregular8" tools:text="@string/lbl_remain_30_000"/>
+    </FrameLayout>
+</layout>

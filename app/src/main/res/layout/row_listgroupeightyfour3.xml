@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listgroupeightyfour3RowModel" type="com.finance.onabudget.app.modules.expenseplanner5.data.model.Listgroupeightyfour3RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowgroupeightyfour"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtGroupEightyFour"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25" android:layout_width="0dp"
+            android:lineSpacingExtra="@dimen/_4pxh"
+            android:paddingBottom="@dimen/_8pxv"
+            android:paddingEnd="@dimen/_21pxh"
+            android:paddingStart="@dimen/_21pxh"
+            android:paddingTop="@dimen/_7pxv" android:singleLine="true"
+            android:text="@{listgroupeightyfour3RowModel.txtGroupEightyFour}"
+            style="@style/txtSolidRoundedOutline" tools:text="@string/lbl_4"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtGroupEightyFive"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_7pxh"
+            android:layout_weight="0.25" android:layout_width="0dp"
+            android:lineSpacingExtra="@dimen/_4pxh"
+            android:paddingBottom="@dimen/_8pxv"
+            android:paddingEnd="@dimen/_20pxh"
+            android:paddingStart="@dimen/_21pxh"
+            android:paddingTop="@dimen/_7pxv" android:singleLine="true"
+            android:text="@{listgroupeightyfour3RowModel.txtGroupEightyFive}"
+            style="@style/txtSolidRoundedOutline" tools:text="@string/lbl_5"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtGroupEightySix"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8pxh"
+            android:layout_weight="0.25" android:layout_width="0dp"
+            android:lineSpacingExtra="@dimen/_4pxh"
+            android:paddingBottom="@dimen/_8pxv"
+            android:paddingEnd="@dimen/_20pxh"
+            android:paddingStart="@dimen/_21pxh"
+            android:paddingTop="@dimen/_7pxv" android:singleLine="true"
+            android:text="@{listgroupeightyfour3RowModel.txtGroupEightySix}"
+            style="@style/txtSolidRoundedOutline" tools:text="@string/lbl_6"/>
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearColumnrectanglethirtyfive"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_7pxh"
+            android:layout_weight="0.25" android:layout_width="0dp"
+            android:orientation="vertical" style="@style/groupStyleteal_400_2bcornerRadius">
+            <View android:background="@color/gray_700"
+                android:id="@+id/viewRectangleThirtyFive"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_2pxv"
+                android:layout_marginBottom="@dimen/_19pxv"
+                android:layout_marginEnd="@dimen/_21pxh"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_marginTop="@dimen/_19pxv" android:layout_width="@dimen/_12pxh"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

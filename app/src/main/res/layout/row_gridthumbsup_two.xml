@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="gridthumbsupTwoRowModel" type="com.finance.onabudget.app.modules.expenseplanner.data.model.GridthumbsupTwoRowModel"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnthumbsup"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_3">
+        <FrameLayout android:id="@+id/frameStackthumbsup"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_35pxv"
+            android:layout_marginEnd="@dimen/_15pxh"
+            android:layout_marginStart="@dimen/_15pxh"
+            android:layout_marginTop="@dimen/_11pxv"
+            android:layout_width="@dimen/_35pxh" style="@style/groupStyleindigo_500_26cornerRadius">
+            <ImageView android:id="@+id/imageThumbsupTwo"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/_24pxh"
+                android:layout_marginBottom="@dimen/_5pxv"
+                android:layout_marginEnd="@dimen/_5pxh"
+                android:layout_marginStart="@dimen/_7pxh"
+                android:layout_marginTop="@dimen/_5pxv"
+                android:layout_width="@dimen/_22pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_thumbsup_indigo_501"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_thumbsup_indigo_501"/>
+        </FrameLayout>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtClothing"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_6pxv"
+            android:layout_marginEnd="@dimen/_14pxh"
+            android:layout_marginStart="@dimen/_15pxh"
+            android:layout_marginTop="@dimen/_6pxv"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_3pxh"
+            android:singleLine="true"
+            android:text="@{gridthumbsupTwoRowModel.txtClothing}"
+            style="@style/txtRobotoromanmedium12" tools:text="@string/lbl_clothing"/>
+    </LinearLayout>
+</layout>

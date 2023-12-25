@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.finance.onabudget.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.finance.onabudget.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.finance.onabudget.app.modules.analyticssavingsplan.ui.AnalyticsSavingsPlanActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.expenseplanner6.ui.ExpensePlanner6Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.editdailyexpense.ui.EditDailyExpenseActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.loading1.ui.Loading1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.changecurrency1.ui.ChangeCurrency1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.otp.ui.OtpActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.adddailyexpense3.ui.AddDailyExpense3Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.opps.ui.OppsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.changecurrency.ui.ChangeCurrencyActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.expenseplanner9.ui.ExpensePlanner9Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.editrecords.ui.EditRecordsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.notifications.ui.NotificationsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.recordssavingsrecords.ui.RecordsSavingsRecordsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.signin.ui.SignInActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.resetpasswordrequest.ui.ResetPasswordRequestActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.editexpenseplan.ui.EditExpensePlanActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.expenseplanner7.ui.ExpensePlanner7Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.recordsexpenserecords.ui.RecordsExpenseRecordsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.addmonthlyincome.ui.AddMonthlyIncomeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.adddailyexpense.ui.AddDailyExpenseActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.recordsexpenserecords1.ui.RecordsExpenseRecords1Activity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.finance.onabudget.app.modules.start.ui.StartActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.finance.onabudget.app.modules.signup.ui.SignUpActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.congratulations.ui.CongratulationsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.expenseplanner8.ui.ExpensePlanner8Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.editrecords1.ui.EditRecords1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.analyticssavingsplan1.ui.AnalyticsSavingsPlan1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.expenseplanner5.ui.ExpensePlanner5Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.recordssavingsrecords1.ui.RecordsSavingsRecords1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.adddailyexpense2.ui.AddDailyExpense2Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.customexpensecategory1.ui.CustomExpenseCategory1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.editrecords2.ui.EditRecords2Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.expenseplanner3.ui.ExpensePlanner3Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.expenseplanner2.ui.ExpensePlanner2Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.expenseplanner1.ui.ExpensePlanner1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.navigation.ui.NavigationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.loading.ui.LoadingActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.setpassword.ui.SetPasswordActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.analyticsexpenseplan.ui.AnalyticsExpensePlanActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.expenseplanner.ui.ExpensePlannerActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.customexpensecategory.ui.CustomExpenseCategoryActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.expenseplanner4.ui.ExpensePlanner4Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.finance.onabudget.app.modules.adddailyexpense1.ui.AddDailyExpense1Activity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

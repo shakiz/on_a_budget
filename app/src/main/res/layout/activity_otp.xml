@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="otpVM" type="com.finance.onabudget.app.modules.otp.data.viewmodel.OtpVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linear5OTP"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearColumnellipseone"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStyleteal_400">
+            <FrameLayout android:gravity="start"
+                android:id="@+id/frameStackellipseone"
+                android:layout_height="@dimen/_276pxv" android:layout_width="match_parent">
+                <ImageView android:id="@+id/imageEllipseOne"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_276pxh"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_ellipse1_3}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_ellipse1_3"/>
+                <ImageView android:id="@+id/imageUnnamedOne"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_170pxh"
+                    android:layout_marginHorizontal="@dimen/_40pxh"
+                    android:layout_marginVertical="@dimen/_40pxv"
+                    android:layout_width="@dimen/_170pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_unnamed1}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_unnamed1"/>
+            </FrameLayout>
+            <TextView android:ellipsize="end" android:id="@+id/txtOTP"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_21pxh"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_marginTop="@dimen/_43pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{otpVM.otpModel.txtOTP}"
+                style="@style/txtRobotoromansemibold28" tools:text="@string/lbl_otp"/>
+            <com.mukesh.OtpView android:focusableInTouchMode="true"
+                android:id="@+id/otpViewOtpview"
+                android:inputType="number"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_21pxh"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_marginTop="@dimen/_28pxv"
+                android:layout_width="wrap_content" app:OtpItemCount="6"
+                app:OtpItemHeight="@dimen/_40pxv"
+                app:OtpItemSpacing="@dimen/_10pxh"
+                app:OtpItemWidth="@dimen/_43pxh"
+                app:OtpLineColor="@color/white_A700" app:OtpViewType="rectangle"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtSendOTPagain"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_24pxh"
+                android:layout_marginStart="@dimen/_24pxh"
+                android:layout_marginTop="@dimen/_7pxv"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="@dimen/_3pxh"
+                android:singleLine="true"
+                android:text="@{otpVM.otpModel.txtSendOTPagain}"
+                style="@style/txtRobotoromanregular12" tools:text="@string/lbl_send_otp_again"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnSubmitOtp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20pxv"
+                android:layout_marginEnd="@dimen/_21pxh"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_11pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_11pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_submit_otp"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded" tools:text="@string/lbl_submit_otp"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

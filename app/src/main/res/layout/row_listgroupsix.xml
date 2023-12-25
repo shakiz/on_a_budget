@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listgroupsixRowModel" type="com.finance.onabudget.app.modules.editexpenseplan.data.model.ListgroupsixRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowgroupsix"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylewhite_2">
+        <FrameLayout android:id="@+id/frameStackgroupsix"
+            android:layout_height="@dimen/_31pxv"
+            android:layout_marginBottom="@dimen/_5pxv"
+            android:layout_marginStart="@dimen/_11pxh"
+            android:layout_marginTop="@dimen/_6pxv" android:layout_width="@dimen/_236pxh">
+            <ProgressBar android:id="@+id/progressBarGroupSix"
+                android:indeterminate="false"
+                android:layout_gravity="bottom|end"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_11pxv"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_11pxv"
+                android:layout_width="match_parent" android:max="100"
+                android:minHeight="@dimen/_8pxv" android:progress="12"
+                android:progressDrawable="@drawable/layer_list_bg_teal_500_26_radius_4" style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+            <LinearLayout android:id="@+id/linearRowsettings"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_1pxh"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageButton
+                    android:background="@drawable/rectangle_bg_teal_500_26_radius_15"
+                    android:id="@+id/btnSettingsFive"
+                    android:layout_height="@dimen/_30pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_width="@dimen/_30pxh"
+                    android:paddingHorizontal="@dimen/_3pxh"
+                    android:paddingVertical="@dimen/_3pxv"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_settings" tools:ignore="ContentDescription"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtLanguage"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_7pxv"
+                    android:layout_marginStart="@dimen/_6pxh"
+                    android:layout_marginTop="@dimen/_8pxv"
+                    android:layout_weight="0.16"
+                    android:layout_width="0dp"
+                    android:lineSpacingExtra="@dimen/_3pxh"
+                    android:singleLine="true"
+                    android:text="@{listgroupsixRowModel.txtLanguage}"
+                    style="@style/txtRobotoromanmedium12" tools:text="@string/lbl_baby2"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txt5of100000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_21pxv"
+                    android:layout_marginStart="@dimen/_25pxh"
+                    android:layout_weight="0.55"
+                    android:layout_width="0dp"
+                    android:lineSpacingExtra="@dimen/_2pxh"
+                    android:singleLine="true"
+                    android:text="@{listgroupsixRowModel.txt5of100000}"
+                    style="@style/txtRobotoromanlight8" tools:text="@string/msg_5_of_1_00_000"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txt5000"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_20pxv"
+                    android:layout_marginStart="@dimen/_34pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_weight="0.12"
+                    android:layout_width="0dp"
+                    android:lineSpacingExtra="@dimen/_2pxh"
+                    android:singleLine="true"
+                    android:text="@{listgroupsixRowModel.txt5000}"
+                    style="@style/txtRobotoromanmedium8" tools:text="@string/lbl_5_000"/>
+            </LinearLayout>
+        </FrameLayout>
+        <ImageButton
+            android:background="@drawable/rectangle_border_deep_orange_a700_radius_5"
+            android:id="@+id/btnThumbsupTwelve"
+            android:layout_height="@dimen/_20pxh"
+            android:layout_marginBottom="@dimen/_11pxv"
+            android:layout_marginStart="@dimen/_14pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_width="@dimen/_20pxh"
+            android:paddingHorizontal="@dimen/_4pxh"
+            android:paddingVertical="@dimen/_4pxv"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_thumbsup" tools:ignore="ContentDescription"/>
+        <ImageButton
+            android:background="@drawable/rectangle_border_teal_400_radius_5"
+            android:id="@+id/btnEdit"
+            android:layout_height="@dimen/_20pxh"
+            android:layout_marginBottom="@dimen/_11pxv"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_marginStart="@dimen/_7pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_width="@dimen/_20pxh"
+            android:paddingHorizontal="@dimen/_4pxh"
+            android:paddingVertical="@dimen/_4pxv"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_edit" tools:ignore="ContentDescription"/>
+    </LinearLayout>
+</layout>

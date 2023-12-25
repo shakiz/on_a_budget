@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="txtRobotoromansemibold14_1">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStyleblue_A700_26cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_blue_a700_26_radius_17_5</item>
+    </style>
+    <style name="txtRobotoromanlight10">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">300</item>
+    </style>
+    <style name="groupStylepink_900_26cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_pink_900_26_radius_17_5</item>
+    </style>
+    <style name="groupStyleteal_400cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_teal_400_radius_10</item>
+    </style>
+    <style name="btnSolidRounded_2">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:background">@drawable/rectangle_bg_yellow_700_26_radius_10</item>
+    </style>
+    <style name="etSolidOutline">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:background">@drawable/rectangle_bg_teal_400_border_white_a700_66</item>
+    </style>
+    <style name="btnSolidRounded_1">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:background">@drawable/rectangle_bg_teal_400_26_radius_10</item>
+    </style>
+    <style name="groupStylecornerRadius">
+        <item name="android:background">@drawable/rectangle_border_white_a700_radius_10</item>
+    </style>
+    <style name="groupStylegreen_A700_26cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_green_a700_26_radius_17_5</item>
+    </style>
+    <style name="txtRobotoromanbold12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStylepurple_500_26cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_purple_500_26_radius_17_5</item>
+    </style>
+    <style name="groupStyleindigo_500_26cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_indigo_500_26_radius_17_5</item>
+    </style>
+    <style name="btnSolidRoundedOutline">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:background">@drawable/rectangle_bg_teal_400_26_border_gray_300_radius_10</item>
+    </style>
+    <style name="txtRobotoromanbold8">
+        <item name="android:textSize">@dimen/_8pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStylewhite_A700">
+        <item name="android:background">@drawable/rectangle_bg_white_a700</item>
+    </style>
+    <style name="btnSolidRounded">
+        <item name="android:textSize">@dimen/_18pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:background">@drawable/rectangle_bg_green_600_radius_10</item>
+    </style>
+    <style name="groupStyledeep_orange_A100_26cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_deep_orange_a100_26_radius_17_5</item>
+    </style>
+    <style name="groupStyledeep_orange_A700_1">
+        <item name="android:background">@drawable/rectangle_bg_deep_orange_a700_26_radius_17_5</item>
+    </style>
+    <style name="groupStylewhite_A700_26">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_26_border_white_a700_44</item>
+    </style>
+    <style name="groupStylecornerRadius_1">
+        <item name="android:background">@drawable/rectangle_radius_10</item>
+    </style>
+    <style name="groupStylewhite_1">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_gray_300_radius_10</item>
+    </style>
+    <style name="btnSolidOutline_1">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700_26_border_white_a700_44</item>
+    </style>
+    <style name="txtRobotoromanregular8">
+        <item name="android:textSize">@dimen/_8pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylewhite_3">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_black_900_19_radius_10</item>
+    </style>
+    <style name="groupStylewhite_2">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_10</item>
+    </style>
+    <style name="btnSolid">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700</item>
+    </style>
+    <style name="groupStyleteal_400_2bcornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_teal_400_2b_border_gray_300_radius_10</item>
+    </style>
+    <style name="groupStylelight_green_900_26cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_light_green_900_26_radius_17_5</item>
+    </style>
+    <style name="btnSolid_2">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/green_600</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700</item>
+    </style>
+    <style name="groupStyleteal_401">
+        <item name="android:background">@drawable/rectangle_bg_teal_400_border_white_a700_6d</item>
+    </style>
+    <style name="btnSolid_1">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/teal_400</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700</item>
+    </style>
+    <style name="groupStyleteal_400">
+        <item name="android:background">@drawable/rectangle_bg_teal_400</item>
+    </style>
+    <style name="groupStyleteal_500_26cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_teal_500_26_radius_17_5</item>
+    </style>
+    <style name="groupStylelime_700_26cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_lime_700_26_radius_17_5</item>
+    </style>
+    <style name="groupStylecyan_900_26cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_cyan_900_26_radius_17_5</item>
+    </style>
+    <style name="txtRobotoromanmedium10">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="groupStyle">
+        <item name="android:background">@drawable/rectangle_border_black_900_19</item>
+    </style>
+    <style name="txtRobotoromanmedium12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtRobotoromansemibold28">
+        <item name="android:textSize">@dimen/_28pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtSolidRoundedOutline">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:background">@drawable/rectangle_bg_teal_400_2b_border_gray_300_radius_10</item>
+    </style>
+    <style name="groupStyle_1">
+        <item name="android:background">@drawable/rectangle_border_white_a700_44</item>
+    </style>
+    <style name="groupStyle_2">
+        <item name="android:background">@drawable/rectangle_dhi_0</item>
+    </style>
+    <style name="txtRobotoromansemibold20">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="btnSolidOutline">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:background">@drawable/rectangle_bg_teal_400_border_white_a700_66</item>
+    </style>
+    <style name="txtRobotoromanmedium8">
+        <item name="android:textSize">@dimen/_8pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="etRoundedOutline">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:background">@drawable/rectangle_border_white_a700_radius_10</item>
+    </style>
+    <style name="groupStyledeep_orange_A700_26cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_deep_orange_a700_26_border_black_900_19_radius_10</item>
+    </style>
+    <style name="txtRobotoromanmedium12_1">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="groupStylegreen_300_26cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_green_300_26_radius_17_5</item>
+    </style>
+    <style name="txtRobotoromansemibold14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtRobotoromanregular10">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtRobotoromanregular12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtRobotoromanregular14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtRoundedOutline">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:background">@drawable/rectangle_border_white_a700_radius_10</item>
+    </style>
+    <style name="groupStylewhite_A700cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_bl_10_br_10</item>
+    </style>
+    <style name="txtRobotoromanbold20">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtRobotoromanlight8">
+        <item name="android:textSize">@dimen/_8pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">300</item>
+    </style>
+    <style name="groupStyleteal_500_1">
+        <item name="android:background">@drawable/rectangle_bg_teal_500_26_border_black_900_19_radius_10</item>
+    </style>
+    <style name="groupStyleblack_900">
+        <item name="android:background">@drawable/rectangle_bg_black_900</item>
+    </style>
+    <style name="btnRoundedOutline">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:background">@drawable/rectangle_border_white_a700_radius_10</item>
+    </style>
+    <style name="groupStylepurple_A100_26cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_purple_a100_26_radius_17_5</item>
+    </style>
+    <style name="txtRobotoromanregular12_1">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStyleblack_900_47">
+        <item name="android:background">@drawable/rectangle_bg_black_900_47</item>
+    </style>
+    <style name="txtRobotoromansemibold20_1">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStyleblack_900_07">
+        <item name="android:background">@drawable/rectangle_bg_black_900_07_border_black_900_19</item>
+    </style>
+</resources>

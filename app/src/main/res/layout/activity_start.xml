@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="startVM" type="com.finance.onabudget.app.modules.start.data.viewmodel.StartVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumn"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearColumnellipseone"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStyleteal_400">
+            <FrameLayout android:gravity="start"
+                android:id="@+id/frameStackellipseone"
+                android:layout_height="@dimen/_276pxv" android:layout_width="match_parent">
+                <ImageView android:id="@+id/imageEllipseOne"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_276pxh"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_ellipse1}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_ellipse1"/>
+                <ImageView android:id="@+id/imageUnnamedOne"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_170pxh"
+                    android:layout_marginHorizontal="@dimen/_40pxh"
+                    android:layout_marginVertical="@dimen/_40pxv"
+                    android:layout_width="@dimen/_170pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_unnamed1}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_unnamed1"/>
+            </FrameLayout>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtBudgetMan"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_21pxh"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_marginTop="@dimen/_45pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{startVM.startModel.txtBudgetMan}"
+                style="@style/txtRobotoromansemibold28" tools:text="@string/lbl_budgetman"/>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtDescription"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_21pxh"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_marginTop="@dimen/_29pxv"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_10pxh"
+                android:text="@{startVM.startModel.txtDescription}"
+                style="@style/txtRobotoromanregular14" tools:text="@string/msg_budgetman_is_a"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnLetsGo"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20pxv"
+                android:layout_marginEnd="@dimen/_21pxh"
+                android:layout_marginStart="@dimen/_21pxh"
+                android:layout_marginTop="@dimen/_198pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_11pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_11pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_lets_go"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded" tools:text="@string/lbl_lets_go"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listgroup466RowModel" type="com.finance.onabudget.app.modules.analyticssavingsplan1.data.model.Listgroup466RowModel"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearInfobar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical" style="@style/groupStylewhite_3">
+        <FrameLayout android:id="@+id/frameContrast"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_100pxv"
+            android:layout_marginEnd="@dimen/_27pxh"
+            android:layout_marginStart="@dimen/_27pxh"
+            android:layout_marginTop="@dimen/_15pxv" android:layout_width="@dimen/_100pxh">
+            <FrameLayout android:background="@color/teal_400_26"
+                android:id="@+id/frameGroup466"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+            <ImageView android:id="@+id/imageGroup"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/_35pxh"
+                android:layout_marginBottom="@dimen/_34pxv"
+                android:layout_marginEnd="@dimen/_34pxh"
+                android:layout_marginStart="@dimen/_34pxh"
+                android:layout_marginTop="@dimen/_31pxv"
+                android:layout_width="@dimen/_31pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_group_teal_400"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_group_teal_400"/>
+        </FrameLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnAddMonthlyIncome"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_22pxv"
+            android:paddingEnd="@dimen/_12pxh"
+            android:paddingStart="@dimen/_12pxh"
+            android:paddingTop="@dimen/_22pxv" android:singleLine="true"
+            android:text="@string/msg_add_monthly_inc"
+            android:textAllCaps="false" style="@style/btnSolidRounded_1" tools:text="@string/msg_add_monthly_inc"/>
+    </LinearLayout>
+</layout>
